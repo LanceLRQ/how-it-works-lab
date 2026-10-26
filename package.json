@@ -1,0 +1,12 @@
+{
+  "name": "how-it-works-lab",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@11.15.0",
+  "scripts": {
+    "dev": "pnpm --filter portal dev",
+    "lint": "pnpm -r run lint",
+    "test": "pnpm -r run test",
+    "build": "pnpm -r run build"
+  }
+}
