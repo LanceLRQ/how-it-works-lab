@@ -1,0 +1,56 @@
+{
+  "courses": [
+    {
+      "id": "transformer",
+      "name": "Transformer 图解课堂",
+      "dir": "modules/transformer",
+      "mount": "/study/transformer/",
+      "status": "ready",
+      "buildCommand": "build",
+      "dist": "dist",
+      "licenseFiles": ["LICENSE"]
+    },
+    {
+      "id": "ai-agents",
+      "name": "Agent Lab",
+      "dir": "modules/ai-agents",
+      "mount": "/study/ai-agents/",
+      "status": "ready",
+      "buildCommand": "build",
+      "dist": "dist",
+      "licenseFiles": ["LICENSE"]
+    },
+    {
+      "id": "cryptography",
+      "name": "密码学图解课堂",
+      "dir": "modules/cryptography",
+      "mount": "/study/cryptography/",
+      "status": "ready",
+      "buildCommand": "build",
+      "dist": "dist",
+      "licenseFiles": []
+    },
+    {
+      "id": "fft-basic",
+      "name": "FFT 图解课堂",
+      "dir": "modules/fft-basic",
+      "mount": "/study/fft-basic/",
+      "status": "pending-adaptation",
+      "reason": "vite base 仍为根路径（配置中被注释），且 Router basename 未适配子路径；适配后改 status 为 ready",
+      "buildCommand": "build",
+      "dist": "dist",
+      "licenseFiles": []
+    },
+    {
+      "id": "large-language-model",
+      "name": "大语言模型实践",
+      "dir": "modules/large-language-model",
+      "mount": "/study/large-language-model/",
+      "status": "pending-adaptation",
+      "reason": "VitePress 需配置 base 并确认产物路径（docs/.vitepress/dist）；适配后改 status 为 ready",
+      "buildCommand": "docs:build",
+      "dist": "docs/.vitepress/dist",
+      "licenseFiles": []
+    }
+  ]
+}
