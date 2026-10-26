@@ -35,8 +35,7 @@
       "name": "FFT 图解课堂",
       "dir": "modules/fft-basic",
       "mount": "/study/fft-basic/",
-      "status": "pending-adaptation",
-      "reason": "vite base 仍为根路径（配置中被注释），且 Router basename 未适配子路径；适配后改 status 为 ready",
+      "status": "ready",
       "buildCommand": "build",
       "dist": "dist",
       "licenseFiles": []
@@ -46,8 +45,7 @@
       "name": "大语言模型实践",
       "dir": "modules/large-language-model",
       "mount": "/study/large-language-model/",
-      "status": "pending-adaptation",
-      "reason": "VitePress 需配置 base 并确认产物路径（docs/.vitepress/dist）；适配后改 status 为 ready",
+      "status": "ready",
       "buildCommand": "docs:build",
       "dist": "docs/.vitepress/dist",
       "licenseFiles": []
