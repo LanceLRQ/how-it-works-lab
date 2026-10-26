@@ -11,7 +11,7 @@
 
 ## 当前状态
 
-已完成仓库治理、pnpm workspace 脚手架（入口应用 `apps/portal`，React + Vite + TypeScript，提供 lint / test / build 命令）与课程接入：transformer、ai-agents、cryptography、fft-basic、large-language-model 五门课程以 git submodule 挂在 `modules/`。统一构建发布命令 `pnpm build:release`（`scripts/build-release.mjs` + `catalog/courses.json` 注册表）已跑通前三门课程的「同步 submodule → 课程自建 → 组装 → 校验 → manifest 快照」链路；fft-basic 与 large-language-model 待课程侧 base 适配后接入。门户仍是占位首页，课程目录、学习路线与本地进度功能尚未实现。
+已完成仓库治理、pnpm workspace 脚手架（入口应用 `apps/portal`，React + Vite + TypeScript，提供 lint / test / build 命令）与课程接入：transformer、ai-agents、cryptography、fft-basic、large-language-model 五门课程以 git submodule 挂在 `modules/`，统一构建发布命令 `pnpm build:release`（`scripts/build-release.mjs` + `catalog/courses.json` 注册表）已跑通全部五门课程的「同步 submodule → 课程自建 → 组装 → 校验 → manifest 快照」链路，产物挂在 `/study/<课程id>/` 子路径。门户仍是占位首页，课程目录、学习路线与本地进度功能尚未实现。
 
 下一步是门户页面落地与 M0 课程接入协议（课程元数据与目录 JSON）。
 
