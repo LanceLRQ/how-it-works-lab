@@ -1,0 +1,15 @@
+[submodule "modules/transformer"]
+	path = modules/transformer
+	url = git@github.com:LanceLRQ/learning-transformer.git
+[submodule "modules/ai-agents"]
+	path = modules/ai-agents
+	url = git@github.com:LanceLRQ/learning-ai-agents.git
+[submodule "modules/cryptography"]
+	path = modules/cryptography
+	url = git@github.com:LanceLRQ/learning-cryptography.git
+[submodule "modules/fft-basic"]
+	path = modules/fft-basic
+	url = git@github.com:LanceLRQ/learning-fft-basic.git
+[submodule "modules/large-language-model"]
+	path = modules/large-language-model
+	url = git@github.com:LanceLRQ/learning-llm-minimind.git
